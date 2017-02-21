@@ -9,11 +9,11 @@ import {RouterModule} from "@angular/router";
 import {routes} from "./app.routes";
 import {CreateTaskComponent} from "./createtask/createtask.component";
 import {ShowTaskComponent} from "./showtask/showtask.component";
-//import {EditTaskComponent} from "./edittask/edittask.component";
+import {EditTaskComponent} from "./edittask/edittask.component";
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, CommonModule, RouterModule.forRoot(routes) ],
-  declarations: [ AppComponent, CreateTaskComponent, ShowTaskComponent],
+  declarations: [ AppComponent, CreateTaskComponent, ShowTaskComponent, EditTaskComponent],
   bootstrap:    [ AppComponent ],
   providers: [AppSingletonService]
 })

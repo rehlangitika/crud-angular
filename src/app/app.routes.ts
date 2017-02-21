@@ -1,7 +1,7 @@
 import {Routes} from '@angular/router'
 import { CreateTaskComponent } from './createtask/createtask.component'
 import {ShowTaskComponent} from "./showtask/showtask.component";
-//import {EditTaskComponent} from "./edittask/edittask.component";
+import {EditTaskComponent} from "./edittask/edittask.component";
 
 export const routes: Routes =[{
   path : 'create',
@@ -9,7 +9,7 @@ export const routes: Routes =[{
 },{
   path: 'show',
   component: ShowTaskComponent
-}, /*{
+}, {
     path: 'edit/:id',
   component: EditTaskComponent
-}*/];
+}];

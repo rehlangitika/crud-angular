@@ -19,7 +19,7 @@ export class ShowTaskComponent implements OnInit {
     this.myTasks = this.service.tasks;
   }
 
-  deleteTask(i) {
+  deleteTask(i: number) {
     this.service.delete(i)
   }
 

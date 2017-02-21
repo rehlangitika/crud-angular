@@ -15,7 +15,7 @@ export class AppSingletonService {
     this.tasks.push(t)
   }
 
-  delete(i) {
+  delete(i: number) {
     this.tasks.splice(i,1)
   }
 
